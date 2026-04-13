@@ -112,7 +112,7 @@ metadata:
   labels:
     app: frontend
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: frontend
   ports:
